@@ -11,6 +11,7 @@ name = "pypi"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
 flask = "*"
+python-dotenv = "*"
 
 
 [dev-packages]
