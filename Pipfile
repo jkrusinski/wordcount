@@ -10,6 +10,9 @@ flask-migrate = "*"
 flask = "*"
 python-dotenv = "*"
 flask-script = "*"
+requests = "*"
+"beautifulsoup4" = "*"
+nltk = "*"
 
 [dev-packages]
 
