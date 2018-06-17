@@ -1,23 +1,17 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-
 "psycopg2" = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
 flask = "*"
 python-dotenv = "*"
-
+flask-script = "*"
 
 [dev-packages]
 
-
-
 [requires]
-
 python_version = "3.6"

@@ -1,11 +1,11 @@
-from os import path
-basedir = path.abspath(path.dirname(__file__))
+import os
 
 
 class Config:
     DEBUG = False
     TESTING = False
     CSRF_ENABLED = True
+    SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
     SECRET_KEY = 'this_really_needs_to_be_changed'
 
 
