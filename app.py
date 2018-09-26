@@ -9,6 +9,8 @@ from stop_words import stops
 from collections import Counter
 from bs4 import BeautifulSoup
 
+# this comment is for a clickup itegration test
+
 app = Flask(__name__)
 app.config.from_object(os.environ['APP_SETTINGS'])
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
